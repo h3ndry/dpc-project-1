@@ -1,0 +1,175 @@
+%* This isian unofficial template for a title page for thesis dissertation at SLU and was created by Theodorik Leao, 2020. It uses the SLU thesis template v3, available for word at: https://www.slu.se/site/bibliotek/publicera-och-analysera/registrera-och-publicera/dokumentmallar/
+
+
+\documentclass[a4,12pt]{article}
+
+% Standard margins for SLU is 3.5 cm on each side. Add this code if desired:
+\usepackage[a4paper, left=3.5cm,right=3.5cm]{geometry}
+
+% Necessary packages for the titlepage:
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{graphicx}
+\usepackage{newtxtext}
+\usepackage{float}
+\usepackage{comment}
+% This command changes the font style where SLU promotes Arial
+\newenvironment{myfont}{\fontfamily{phv}\selectfont}{\par}
+
+
+% Begin document:
+\begin{document}
+
+% Add title page:
+\include{titlePageSLU}
+
+
+
+Project Report
+
+A project report is an official document. This means that the document must contain all the information that gave rise to a project or assignment and the results obtained.
+
+For every project and assignment done, a report must be handed in.
+
+The document must contain the following:
+
+    % ​ SECTION A
+
+    1. Cover page
+
+% The following information must be written on the front page:
+%     • Subject
+%     • Title of experiment/assignment/project
+%     •p Initials & Surname
+%     • Student number
+%     • Date of completion
+%     • Picture of completed project
+
+    2. Content
+
+The report must be done neatly and must consist of the following:
+
+        2.1. Title
+
+The name of the project.
+
+\section{Aim / Purpose}        
+
+This will include what you want to do or attempt with this experiment. This introductory part is approximately 100 words that describe the project globally without mentioning any detail to the reader.
+
+
+\section{Equipment and components} 
+
+A list of all the equipment you have used.
+
+\section{Diagrams}        
+
+All diagrams must be fully labeled and drawn up to electrical standard:
+    • Block diagrams
+    • Circuit diagrams
+    • Flow charts
+    • Code listing (the assembler program code must consist of at least 120 lines of code with commentary)
+    • Processing sketches screenshots 
+
+
+\section{Specifications}        
+
+Specifications include the following data:
+    • Physical size of the instrument
+    • Supply voltage of the instrument
+    • Power consumption of the instrument/circuit
+    • Input signal levels (voltage- and current-levels)
+    • Output signal levels (voltage- and current-levels)
+
+
+
+
+SECTION B
+
+\section{METHOD}        
+
+This section is a step-by-step procedure that has to be followed by the user. It must include handling and installation instructions of the instrument/circuit.
+The procedure to follow must be listed complete so that any user can follow the steps and end with the same results.
+
+    2. 
+    \subsection{FUNCTIONAL DESCRIPTION}        
+
+
+The functional description describes the project with reference to the block diagram. Only functions of each different block and their interaction are described.
+
+
+    \subsection{DEMO BOARD DESCRIPTION}        
+
+Examples of what to put here:
+    • Auto/Manual key switch: Selects whether the system is in manual or auto mode. 
+    •   Start Button:	Starts the system in the mode selected by the key switches.
+    • Stop Button:	Stops the system.
+    • Reset Button:	Reset faults, or perform a system reset if the system is in stop mode.
+
+
+
+\subsection{SYSTEM OPERATING INSTRUCTIONS}        
+        2.2. 
+
+
+\subsection{OPERATING MODES}        
+
+            2.2.1 
+
+
+Auto Mode: 
+
+Manual Mode: 
+
+
+        2.3.  [] OPERATION
+
+            2.3.1 Start-Up
+
+            2.3.2 Starting the Process
+
+            2.3.3 Estop Sequence
+
+
+            2.3.4 System Reset
+
+
+
+       2.4. DEMO BOARD OPERATION
+
+            2.4.1. Input section 
+
+            2.4.2. Output Section
+
+This must be a detailed description of the circuit diagram. Design considerations and calculations must be shown. The information must be adequate to enable the maintenance technician to repair the instrument if necessary.
+
+
+
+
+    % ​ SECTION C
+
+        1. 
+\section{Results, graphs and/or timing diagrams}        
+
+
+All the output readings needed, must be taken (written down). From the results, graphs and timing diagrams must be drawn.
+The design process and problems encountered can also be mentioned here.
+
+        
+
+\section{Conclusion}
+
+A complete analysis of what you observed from the circuit. This is also a summary of the complete practical work done.
+
+\section{Bibliography}
+
+Title, publisher and date of publication (from journal or book) and part where aid was received, name of the person and workplace (company) of person who provided aid.
+Use the Harvard method of reference!!!
+
+
+        4. Appendix 1: FULL LLD
+
+
+Plan and prepare your practical work well ahead. 
+
+\end{document}
